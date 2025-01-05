@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="bg-green-100 p-3 flex  items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl ">GREENDEN</h1>
+
+        <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="h-6 w-6 md:hidden ">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5 " />
+        </svg>
+
+
+        <ul class="flex gap-5 text-gray-600 hidden  md:flex ">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-black" href="product.html">Products</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+            </li>
+        </ul>
+
+
+    </div>
+    <!-- sidenavbar -->
+    <section id="sidenav" class="bg-green-100 fixed z-20 top-0 transition-all duration-1000 "
+        style="width:50%;height:100vh;right: -50%;">
+        <div class="text-right p-5">
+            <p class="inline cursor-pointer " id="closenav"> X</p>
+        </div>
+        <ul class="flex flex-col gap-10 text-gray-600 items-center ">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-black" href="product.html">Products</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+            </li>
+        </ul>
+
+    </section>
+
+
+    <div>
+        <h1 class=" mt-10 font-bold text-3xl text-center md:text-4xl">Our Products</h1>
+        <div class="text-center">
+            <input id="search" type="text" placeholder="Search for a products" class="border border-black p-3 m-5 "
+                style="width: 80%;">
+        </div>
+        <div id="productcontainer"
+            class=" grid grid-rows-4 grid-cols-2 text-center mt-3  gap-3 md:grid-cols-4 md:grid-rows-2 p-3">
+
+            <a href="p2.html">
+                <div>
+                    <img src="./images/rose.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                    <h1 class="md:text-xl m-2">Rose plant</h1>
+                    <p>20$</p>
+                </div>
+
+            </a>
+
+            <a href="p3.html">
+                <div>
+                    <img src="./images/flower2.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                    <h1 class="md:text-xl m-2">hybis plant</h1>
+                    <p>20$</p>
+                </div>
+
+            </a>
+
+            <a href="p1.html">
+                <div>
+                    <img src="./images/flower.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                    <h1 class="md:text-xl m-2">lily plant</h1>
+                    <p>20$</p>
+                </div>
+
+            </a>
+
+
+            <a href="p2.html">
+                <div>
+                    <img src="./images/flower3.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                    <h1 class="md:text-xl m-2">snake plant</h1>
+                    <p>20$</p>
+                </div>
+            </a>
+            <a href="p3.html">
+                <div>
+                    <img src="./images/flower.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                    <h1 class="md:text-xl m-2">money plant</h1>
+                    <p>20$</p>
+                </div>
+            </a>
+            <a href="p1.html">
+                <div>
+                    <img src="./images/rose.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                    <h1 class="md:text-xl m-2">sunflower plant</h1>
+                    <p>20$</p>
+                </div>
+            </a>
+            <a href="p2.html">
+                <div>
+                    <img src="./images/flower2.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                    <h1 class="md:text-xl m-2">tulip plant</h1>
+                    <p>20$</p>
+                </div>
+            </a>
+            <a href="p1.html">
+                <div>
+                    <img src="./images/flower3.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                    <h1 class="md:text-xl m-2">dandalins plant</h1>
+                    <p>20$</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="bg-green-100 m-3 p-5">
+        <h1 class="font-bold text-3xl pb-3 ">Greenden</h1>
+        <p>The Standard chunk of lorem issum used since 1500s is reproduced below for those internet</p>
+        <p>&copy 2021 Greenden.com</p>
+    </div>
+    <script src="product.js"></script>
+</body>
+
+</html>
